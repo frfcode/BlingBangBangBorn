@@ -26,9 +26,11 @@
         audio.play();
         let div = document.querySelector("div");
         div.classList.add("enabled");
+        div.style.background = "#EFE632"
 
         setTimeout(() => {
           div.classList.remove("enabled");
+          div.style.background = "#ffff";
         }, 16000);
       });
     </script>
